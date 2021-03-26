@@ -1,0 +1,35 @@
+html,body,div,p,dl,dd,ul,ol,li,img{
+  margin: 0;
+  padding: 0;
+}
+
+// 鼠标经过颜色
+.hover-color {
+  transition: color 0.3s linear
+}
+
+// 鼠标按定可拖动
+.drag {
+  -webkit-app-region: drag;
+}
+// 鼠标按定不可拖动
+.no-drag {
+  -webkit-app-region: no-drag;
+}
+
+/*Flex 布局*/
+.flex_1{display: flex; flex: 1;}
+.flex_row{display: flex; flex-direction: row;}
+.flex_column{display: flex; flex-direction: column}
+.flex_row_center{justify-content: center}
+.flex_column_center{align-items: center;}
+.flex_center{justify-content: center;align-items: center;}
+.self_flex_start{align-self: flex-start;}
+.self_flex_end{align-self: flex-end;}
+/*Flex 布局*/
+
+// 内容全屏
+.fullScreen {
+  flex: 1;
+  flex-shrink: 0;
+}
